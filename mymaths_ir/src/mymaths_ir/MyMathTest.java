@@ -31,14 +31,6 @@ class MyMathTest {
 		assertArrayEquals(test2, new int[] {1, 2, 3, 20, 6, 7});
  	}
 	
-	@Test
-	void MergeTest() {
-		int[] xs = {3,2,8,90,1,5};
-	    int[] lijst = MyMath.mergeSort(xs);
-		for (int i=0;i<lijst.length;i++) {
-			System.out.println(lijst[i]);
-		}
-	}
 	
 
 }
